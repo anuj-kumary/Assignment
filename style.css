@@ -47,9 +47,37 @@ nav{
 .apply-link{
     text-align: center;
     margin: .8rem 0;
-
     background-color: var(--primary-color);
     padding: .5rem 1rem;
     color: #ffffff;
     font-weight: 500;
+}
+
+.hero-container{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.left-side{
+    width: 60vw;
+    padding-left:3rem;
+}
+.heading{
+    font-size: 4.5rem;
+    color: #333;
+}
+.right-side{
+    width: 40vw;
+}
+.join-btn{
+    margin-top: 1rem;
+    padding: 10px 1.9rem;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+    border-width: 0;
+    color: #fcfcfc;
 }
